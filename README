@@ -1,6 +1,12 @@
 This Is A Web Panel Like cPanel But Open Source
 	It Is Called oPanel
 
+1.Installation
+	Run this command::
+	sudo mkdir /usr/local/oPanel/ && sudo cp -rf * /usr/local/oPanel/ && sudo ln -s /usr/local/oPanel /var/www/oPanel;
+
+
+
                  GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
