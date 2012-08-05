@@ -1,5 +1,6 @@
 <?php
 include("/usr/local/oPanel/scripts/php/sessioncheck/index.php");
+include("/usr/local/oPanel/config/services.phpdb");
 }
 function GetServerStatus($site, $port)
 {

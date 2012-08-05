@@ -1,0 +1,12 @@
+<?php
+//Array Definitions
+$_oPanel = array();
+
+//Plain Text Username
+	$_oPanel['username'] = "Username";
+//Plain Text Password
+	$_oPanel['password'] = "Password";
+//Login Timeout
+	$_oPanel['timeout'] = 1.25;
+//Main Network Card
+	$_oPanel['networkcard'] = "eth1";

@@ -1,0 +1,12 @@
+<?php
+$_oPanelService = array();
+
+//Service Definitions
+//Syntax follows `$_oPanelService['SERVICENAME'] = PORT;`
+//Service name can be anything
+
+//HTTP Definition
+        $_oPanelService['Web Server'] = 80;
+//SSH Definition
+        $_oPanelService['SSH'] = 21;
+

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("/usr/local/oPanel/config.php");
+include("/usr/local/oPanel/config.phpdb");
 $checked = false;
 //session_start();
 //echo (time() - $_SESSION['timestamp']) . ">" . (60*$_oPanel['timeout']);

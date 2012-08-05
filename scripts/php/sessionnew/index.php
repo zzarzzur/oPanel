@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("/usr/local/oPanel/config.php");
+include("/usr/local/oPanel/config.phpdb");
 $checked = false;
 $active = $_SESSION['active'];
 //if($_SESSION['active'] == "false") {
