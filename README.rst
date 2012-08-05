@@ -2,12 +2,22 @@ This Is A Web Panel Like cPanel But Open Source
         It Is Called oPanel
 
 Installation
-        Run this command::
-                sudo mkdir /usr/local/oPanel/ && sudo cp -rf * /usr/local/oPanel/ && sudo ln -s /usr/local/oPanel /var/www/oPanel;
+	        Run either command::
+	
+	        	        sudo mkdir /usr/local/oPanel/ && sudo cp -rf * /usr/local/oPanel/ && sudo ln -s /usr/local/oPanel /var/www/oPanel;
+	
+			For standalone also::
+				
+				sudo /usr/local/oPanel/standalone
+				
         Then edit this file::
+
                 /usr/local/oPanel/config.phpdb
+
         Then Navigate To::
+
                 http://localhost/oPanel/
+
 
 
 
